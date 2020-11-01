@@ -44,7 +44,7 @@ body {
 @media (min-width: 768px) {
   .navbar.fixed-left {
     bottom: 0;
-    width: 253.2px;
+    width: 18%;
     flex-flow: column nowrap;
     align-items: flex-start;
     background-color: black !important;
@@ -114,18 +114,27 @@ body {
 
   .name-text {
     position: absolute;
-    top: 15%;
-    left: 15% !important;
+    top: 12%;
+    left: 10% !important;
     color: #fff;
-    font-weight: 800 !important;
+    font-weight: 700 !important;
   }
 
   /* role text */
   .role-text {
     /* transform: translate(-50%, -50%); */
     position: absolute;
-    top: 25%;
-    left: 15% !important;
+    top: 23%;
+    left: 12% !important;
+  }
+
+  .main-img {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+      url("../img/IMG_1751-1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
   }
 
   .profile-pic {
