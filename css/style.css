@@ -114,7 +114,7 @@ body {
 
   .name-text {
     position: absolute;
-    top: 12%;
+    top: 15%;
     left: 10% !important;
     color: #fff;
     font-weight: 700 !important;
@@ -124,7 +124,7 @@ body {
   .role-text {
     /* transform: translate(-50%, -50%); */
     position: absolute;
-    top: 23%;
+    top: 28%;
     left: 12% !important;
   }
 
